@@ -19,30 +19,34 @@ body{
     font-size: 20px;
     margin: 5px 0px 0px 60px;
     letter-spacing: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .bur p:hover{
 	background-color: #cccccc;
 }
-.menu{
+.manu{
 	float: right;
     width: 35%;
+    display: flex;
+    justify-content: center;
 }
-.menu ul{
+.manu ul{
 	list-style: none;
-	margin: 7px 0px;
 }
-.menu li{
+.manu li{
 	display: inline-block;
 	width: 80px;
     height: 40px;
     letter-spacing: 5px;
 }
-.menu li a{
+.manu li a{
 	text-decoration: none;
     color:black;
     padding: 4px 5px 10px 5px;
 }
- .menu a:hover{
+ .manu a:hover{
  	background-color: #cccccc;
  }
  .burban{
@@ -59,21 +63,24 @@ body{
     color: #5d5e61;
  }
  .about{
- 	width: 100%;
+ 	width: 90%;
     height: 750px;
     margin-top: 55px;
+    padding-bottom: 50px;
+    margin-left: 50px;
+    border-bottom: 1px solid #999;
  }
  .a-img{
  	width: 40%;
     height: 600px;
     float: left;
-    margin-left: 150px;
+    margin-left: 60px;
  }
  .a-text{
  	width: 40%;
-    height: 600px;
+    height: 750px;
     float: left;
-    margin-left: 85px;
+    margin-left: 150px;
  }
  .a-text h2{
  	text-align: center;
@@ -98,4 +105,24 @@ body{
     font-size: 20px;
     margin-left: 25px;
     color: #999;
+}
+.menu{
+	width: 90%;
+    height: 750px;
+    margin-top: 55px;
+    padding-bottom: 50px;
+    margin-left: 50px;
+    border-bottom: 1px solid #999;
+}
+.m-text{
+	width: 40%;
+    height: 750px;
+    float: left;
+    margin-left: 150px;
+}
+.m-img{
+	width: 40%;
+    height: 600px;
+    float: left;
+    margin-left: 60px;
 }
